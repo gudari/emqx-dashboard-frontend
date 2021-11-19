@@ -70,10 +70,6 @@ export default {
     fileTip: '请上传文件',
     uploadFailed: '上传失败',
   },
-  // topbar
-  topbar: {
-    tryEnterprise: '试用企业版',
-  },
   // leftbar
   leftbar: {
     // MONITORING
@@ -443,10 +439,6 @@ export default {
     quickStart: '快速开始',
     emqxDesc:
       'EMQ X 基于 Erlang/OTP 平台开发的 MQTT 消息服务器，是开源社区中最流行的 MQTT 消息服务器，支持丰富的物联网协议，包括 MQTT、LwM2M、MQTT-SN、CoAP、 LoRaWAN、 HTTP 和 WebSocket 等。欢迎 follow 我们的项目或参与构建。',
-    emqxEnterprise: 'EMQ X 企业版',
-    enterpriseDesc:
-      'EMQ X 企业版内置了各种数据持久化支持、安全审计、运行监控等功能，为您提供功能更全面、稳定性与性能更强、数据安全与服务响应级别更高的服务。<br/>最新企业版包含全新的 Dashboard，让您可以轻松创建并管理数十个节点、数百万连接的 IoT Hub 集群。',
-    freeTrial: '免费试用',
     useDocs: '使用文档',
     docsDesc: '我们为您准备了齐全的使用文档，帮助您熟悉更多强大的功能。',
     forwardView: '前往查看',

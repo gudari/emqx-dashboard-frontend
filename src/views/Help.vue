@@ -11,19 +11,6 @@
     <el-divider></el-divider>
 
     <div class="help-item">
-      <h3>{{ $t('help.emqxEnterprise') }}</h3>
-      <p v-html="$t('help.enterpriseDesc')"></p>
-      <a target="_blank" :href="learnEnterprise">
-        {{ $t('oper.learnMore') }}
-      </a>
-      <a target="_blank" :href="freeTrial">
-        {{ $t('help.freeTrial') }}
-      </a>
-    </div>
-
-    <el-divider></el-divider>
-
-    <div class="help-item">
       <h3>{{ $t('help.useDocs') }}</h3>
       <p>{{ $t('help.docsDesc') }}</p>
       <a target="_blank" :href="docsLink">
@@ -84,11 +71,6 @@ export default {
       return this.lang === 'zh'
         ? 'https://www.emqx.io/cn/products/enterprise'
         : 'https://www.emqx.io/products/enterprise'
-    },
-    freeTrial() {
-      return this.lang === 'zh'
-        ? 'https://www.emqx.io/cn/downloads#enterprise'
-        : 'https://www.emqx.io/downloads#enterprise'
     },
     docsLink() {
       return this.lang === 'zh' ? 'https://docs.emqx.io/broker/latest/cn' : 'https://docs.emqx.cn/cn/broker/latest/'

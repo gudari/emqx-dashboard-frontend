@@ -69,10 +69,6 @@ export default {
     fileTip: 'ファイルをアップロード',
     uploadFailed: 'アップロード失敗',
   },
-  // topbar
-  topbar: {
-    tryEnterprise: '無料トライアル',
-  },
   // leftbar
   leftbar: {
     // MONITORING
@@ -439,10 +435,6 @@ export default {
     quickStart: 'クイックスタート',
     emqxDesc:
       'EMQ X Brokerは、高い並行処理指向のErlang / OTPに基づいて、オープンソースコミュニティで最も人気のあるMQTT ブローカーです。MQTT、LwM2M、MQTT-SN、CoAP、LoRaWAN、HTTP、WebSocketなどの豊富なIoTプロトコルをサポートしています。EMQ X Brokerが良かったと思われる方は、GitHubでフォローしていただけると嬉しいです。更に、皆様からのコントリビューションを歓迎します。',
-    emqxEnterprise: 'EMQ X Enterprise',
-    enterpriseDesc:
-      'EMQ X Enterpriseにおいて、様々なデータ永続化、セキュリティ監視サービス、稼働監視など機能を提供しています。無料体験版より包括的な機能、より強力な安定性とパフォーマンス、より厳密なセキュリティのメリットがあります。<br/>更に、新しいダッシュボードが含まれ、1つのIoT Hubクラスターにより数百万のデバイス接続を簡単に作成及び管理できます。',
-    freeTrial: '無料トライアル',
     useDocs: 'ドキュメント',
     docsDesc: 'EMQ X Brokerの全機能に関する役立つドキュメントを用意しています。',
     forwardView: 'ドキュメントを見る',

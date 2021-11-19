@@ -13,10 +13,6 @@
           GitHub
           <i class="iconfont icon-git"></i>
         </el-button>
-        <el-button size="medium" class="enterprise-btn" @click="openLink('enterprise')">
-          {{ $t('topbar.tryEnterprise') }}
-          <i class="iconfont icon-arrow"></i>
-        </el-button>
       </div>
     </div>
   </div>
